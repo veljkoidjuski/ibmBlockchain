@@ -1,0 +1,196 @@
+body{
+    padding:0px;
+    background-color: #150509;
+    font-size: 20px;
+}
+
+
+@font-face {
+    font-family: 'ibmSerif';
+    src: url('IBMPlexSerif-Light.ttf');
+    font-weight:lighter;
+}
+
+@font-face {
+    font-family: 'ibmSerif';
+    src: url('IBMPlexSerif-Bold.ttf');
+    font-weight:bold;
+}
+
+@font-face {
+    font-family: 'ibm';
+    src: url('IBMPlexSans-Medium.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'ibmthin';
+    src: url('IBMPlexSans-Thin.ttf');
+    font-weight:100;
+}
+
+@font-face {
+    font-family: 'ibm';
+    src: url('IBMPlexSans-Bold.ttf');
+    font-weight:bold;
+}
+
+
+
+@font-face {
+    font-family: 'ibm';
+    src: url('IBMPlexSans-Light.ttf');
+    font-weight:lighter;
+}
+
+@font-face {
+    font-family: 'ibmSerif';
+    src: url('IBMPlexSerif-SemiBoldItalic.ttf');
+    font-weight:bold;
+    font-style:italic;
+}
+
+@font-face {
+    font-family: 'ibmSerif';
+    src: url('IBMPlexSerif-ExtraLightItalic.ttf');
+    font-style:italic;
+}
+
+#navigacionaPrecka{
+    display:flex;
+    padding: 5px 10px 5px 10px;
+    flex-direction: row;
+    height: 70px;
+    /*line-height: 100%;*/
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#logo
+{
+    height:80%;
+    margin-right:10px;
+}
+
+#naslovPomocni
+{
+    font-size: 20px;
+    font-family: ibm;
+    font-weight:lighter;
+    color: #93A0BD;
+    
+}
+
+#unutra
+{
+    height: 100%;
+    line-height: 100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: ibm;
+    justify-content: right;
+    width:100%;
+    font-size:16px;
+    color: #93A0BD;
+    
+}
+
+.navlink
+{
+    padding: 0px 10px 0px 10px;
+    color:#93A0BD;
+    text-decoration: none;
+    font-weight: lighter;
+    transition: color 0.2s;
+    font-size: 20px;
+}
+
+.navlink:hover{
+    color:#F0C808;
+    font-weight: normal;
+}
+
+#telo1
+{
+    padding:5px 10px 5px 10px;
+    position:absolute;
+    top: 60px;
+    
+    width:500px;
+}
+
+.nasl{
+    color:#F0C808;
+    font-family: ibmthin/*Serif*/;
+    /*font-style: italic;*/
+    font-weight: /*normal*/100;
+    text-align: justify;
+    font-size:52px;
+    line-height: 1.05;
+    margin-bottom: 15px;
+
+}
+
+p
+{
+    font-family:ibm;
+    font-weight:lighter;
+    color:#93A0BD;
+    text-align: justify;
+    
+}
+
+.dugme
+{
+    background-color: #93A0BD;
+    border:none;
+    height:30px;
+    width:auto;
+    line-height: 30px;
+    display: inline-block;
+    padding:5px 15px 5px 15px;
+    color:#150509;
+    border-radius: 20px;
+    transition: background-color 0.2s;
+
+}
+
+.dugme:hover
+{
+    background-color: #F0C808;
+}
+
+.sveopstiKontejner
+{
+    width: 1366px;
+    margin-left:10px;
+    margin-right:10px;
+    margin: 0 auto;
+}
+
+#a
+{
+    margin-top:0px
+}
+
+.poc
+{
+    margin-top:0px;
+    margin-bottom:15px
+}
+
+a{
+    font-family:ibm;
+    font-weight:lighter;
+    text-decoration: none;
+    
+}
+
+#bclogo
+{
+    height:60%;
+    margin-left:10px;
+    filter: invert(64%) sepia(9%) saturate(860%) hue-rotate(184deg) brightness(99%) contrast(88%);
+}
