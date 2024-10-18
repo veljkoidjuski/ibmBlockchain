@@ -64,6 +64,11 @@ body{
     /*line-height: 100%;*/
     flex-direction: row;
     align-items: center;
+    position:fixed;
+    top:0px;
+    width:1326px;
+    background-color: #150509;
+    z-index: 1000;
 
 }
 
@@ -71,6 +76,20 @@ body{
 {
     height:80%;
     margin-right:10px;
+    filter: invert(64%) sepia(9%) saturate(860%) hue-rotate(184deg) brightness(99%) contrast(88%);
+}
+#logo2
+{
+    height:80%;
+    margin-right:10px;
+    filter: invert(64%) sepia(9%) saturate(860%) hue-rotate(184deg) brightness(99%) contrast(88%);
+    
+}
+
+#logo2:hover
+{
+    filter: invert(87%) sepia(38%) saturate(2347%) hue-rotate(356deg) brightness(96%) contrast(97%);
+    transition: filter 0.2s
 }
 
 #naslovPomocni
@@ -79,7 +98,7 @@ body{
     font-family: ibm;
     font-weight:lighter;
     color: #93A0BD;
-    
+    background-color: #150509;
 }
 
 #unutra
@@ -94,12 +113,14 @@ body{
     width:100%;
     font-size:16px;
     color: #93A0BD;
+    padding-right:0;
+    margin-right:0;
     
 }
 
 .navlink
 {
-    padding: 0px 10px 0px 10px;
+    padding: 0px 0px 0px 25px;
     color:#93A0BD;
     text-decoration: none;
     font-weight: lighter;
@@ -110,6 +131,7 @@ body{
 .navlink:hover{
     color:#F0C808;
     font-weight: normal;
+    
 }
 
 #telo1
@@ -117,7 +139,6 @@ body{
     padding:5px 10px 5px 10px;
     position:absolute;
     top: 60px;
-    
     width:500px;
 }
 
@@ -129,7 +150,9 @@ body{
     text-align: justify;
     font-size:52px;
     line-height: 1.05;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
+    margin-top:10px;
+    letter-spacing: 0.5px;
 
 }
 
@@ -164,10 +187,11 @@ p
 
 .sveopstiKontejner
 {
-    width: 1366px;
+    width: 1346px;
     margin-left:10px;
     margin-right:10px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 #a
@@ -178,7 +202,7 @@ p
 .poc
 {
     margin-top:0px;
-    margin-bottom:15px
+    margin-bottom:25px;
 }
 
 a{
@@ -193,4 +217,51 @@ a{
     height:60%;
     margin-left:10px;
     filter: invert(64%) sepia(9%) saturate(860%) hue-rotate(184deg) brightness(99%) contrast(88%);
+}
+
+#slik1
+{
+    float:right;
+    padding:5px 10px 5px 10px;
+    width:806px;
+}
+
+#foot
+{
+    float:bottom;
+    width:1326px;
+    margin-left:10px;
+    margin-right:10px;
+    padding:5px 10px 5px 10px;
+    z-index: 900;
+}
+
+#wrapper2
+{
+    width:1346px;
+    height:600px;
+    position:absolute;
+    top:525px;
+    background-color: #150509;
+    z-index: 500;
+}
+
+.dugmeMalo
+{
+    background-color: #93A0BD;
+    border:none;
+    height:12px;
+    width:auto;
+    line-height: 12px;
+    display: inline-block;
+    padding:6px 12px 6px 12px;
+    color:#150509;
+    border-radius: 12px;
+    transition: background-color 0.2s;
+
+}
+
+.dugmeMalo:hover
+{
+    background-color: #F0C808;
 }
